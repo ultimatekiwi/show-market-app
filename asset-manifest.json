@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/show-market-app/static/css/main.cb849b9a.chunk.css",
-    "main.js": "/show-market-app/static/js/main.100120f8.chunk.js",
-    "main.js.map": "/show-market-app/static/js/main.100120f8.chunk.js.map",
-    "runtime-main.js": "/show-market-app/static/js/runtime-main.3748c3fd.js",
-    "runtime-main.js.map": "/show-market-app/static/js/runtime-main.3748c3fd.js.map",
+    "main.js": "/show-market-app/static/js/main.a8e3833c.chunk.js",
+    "main.js.map": "/show-market-app/static/js/main.a8e3833c.chunk.js.map",
+    "runtime-main.js": "/show-market-app/static/js/runtime-main.55fdfd3f.js",
+    "runtime-main.js.map": "/show-market-app/static/js/runtime-main.55fdfd3f.js.map",
     "static/js/2.07277c4f.chunk.js": "/show-market-app/static/js/2.07277c4f.chunk.js",
     "static/js/2.07277c4f.chunk.js.map": "/show-market-app/static/js/2.07277c4f.chunk.js.map",
-    "static/js/3.19b1fdeb.chunk.js": "/show-market-app/static/js/3.19b1fdeb.chunk.js",
-    "static/js/3.19b1fdeb.chunk.js.map": "/show-market-app/static/js/3.19b1fdeb.chunk.js.map",
+    "static/js/3.6cc78a51.chunk.js": "/show-market-app/static/js/3.6cc78a51.chunk.js",
+    "static/js/3.6cc78a51.chunk.js.map": "/show-market-app/static/js/3.6cc78a51.chunk.js.map",
     "index.html": "/show-market-app/index.html",
     "static/css/main.cb849b9a.chunk.css.map": "/show-market-app/static/css/main.cb849b9a.chunk.css.map",
     "static/js/2.07277c4f.chunk.js.LICENSE.txt": "/show-market-app/static/js/2.07277c4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3748c3fd.js",
+    "static/js/runtime-main.55fdfd3f.js",
     "static/js/2.07277c4f.chunk.js",
     "static/css/main.cb849b9a.chunk.css",
-    "static/js/main.100120f8.chunk.js"
+    "static/js/main.a8e3833c.chunk.js"
   ]
 }
