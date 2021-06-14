@@ -28,7 +28,7 @@ const App = () => {
       <Header title={"show-market-app"} buttonList={[]} />
       <Button
         color={loading ? "red" : "green"}
-        text={"GET Stadiums"}
+        text={loading ? "Loading..." : "GET Stadiums"}
         onClick={onClick}
       />
     </div>
