@@ -13,12 +13,12 @@ const App = () => {
 
 
   const onClick = () => {
-    setLoading(!loading)
+    setLoading(true)
 
     setTimeout(() => {
       console.log("hopefully getting stadiums")   
       setLoading(false)
-    }, 1000);
+    }, 500);
     // setLoading(!loading)
 
   }
