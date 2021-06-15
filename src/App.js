@@ -90,6 +90,7 @@ const App = () => {
         text={loading ? "Loading..." : "GET Stadiums"}
         onClick={onClick}
       />
+      <div>
       <code>
         {JSON.stringify(
           {
@@ -101,6 +102,7 @@ const App = () => {
           2
         )}
       </code>
+      </div>
     </div>
   );
 };
