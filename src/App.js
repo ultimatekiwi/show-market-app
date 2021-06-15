@@ -5,8 +5,27 @@ import axios from "axios";
 
 import "./App.css";
 
+
+function showItems(items) {
+  document.getElementById('res').innerHTML = `
+  <div class="container mt-3">
+    <div class="card-header">
+      Items
+    </div>
+    <div class="card-body">
+      <pre>${JSON.stringify(items, null, 2)}</pre>
+    </div>
+  </div>
+  `
+}
+
+
+{/* <pre>${JSON.stringify(items)}</pre> */}
+// 
+
+
 const App = () => {
-  const [items, setItems] = useState([]);
+  const [itemData, setItemData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [perPage, setPerPage] = useState(25);
@@ -23,17 +42,22 @@ const App = () => {
   // load locally-stored GETstadiums response data
   // TODO: actually fetch live data from theshow api
   useEffect(() => {
-    const extractPageData = ({ page, per_page, total_pages }) => {
+    const extractPageData = ({ page, per_page, total_pages, items }) => {
       setCurrentPage(page);
       setPerPage(per_page);
       setTotalPages(total_pages);
+      setItemData(items);
     };
 
     extractPageData(stadiums);
+
+    showItems(itemData);
+    // console.log(items);
+    
     // console.log(currentPage,
     //   perPage,
     //   totalPages)
-  }, [stadiums]);
+  }, []);
 
   //   JSON.stringify(
   //     {
@@ -53,6 +77,8 @@ const App = () => {
       console.log("hopefully getting stadiums");
       setLoading(false);
     }, 500);
+
+    showItems(itemData);
     // setLoading(!loading)
   };
 

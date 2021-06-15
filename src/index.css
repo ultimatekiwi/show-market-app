@@ -11,13 +11,14 @@ body {
 }
 
 .container {
-  max-width: fit-content;
+  max-width: 800px;
   margin: 30px auto;
-  overflow: auto;
+  overflow: auto ;
   min-height: 120px;
   border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
+  text-overflow: ellipsis;
 }
 
 .header {
