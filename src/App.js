@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Button from "./components/Button";
 import axios from "axios";
 
-import "./App.css";
+// import "./App.css";
 
 
 function showItems(items) {
@@ -99,7 +99,7 @@ const App = () => {
             totalPages,
           },
           null,
-          2
+          "\t"
         )}
       </code>
       </div>
